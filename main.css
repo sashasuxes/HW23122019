@@ -1,0 +1,65 @@
+body {
+	font-size: 22px;
+	}
+.traffic_lights {
+	border : 10px solid #f2cade;
+	width : 100px;
+	height: 450px;
+	display: flex;
+	flex-wrap: nowrap; 
+	align-items: center;
+	justify-content: space-between;
+	vertical-align: center;
+flex-direction: column;
+	}
+	
+.red {
+	width : 80px;
+	height: 80px;
+	background: red;
+	border : 1px solid black;
+	}
+	
+.yellow {
+	width : 80px;
+	height: 80px;
+	background: yellow;
+	border : 1px solid black;
+	}
+.green {
+	width : 80px;
+	height: 80px;
+	background: green;
+	border : 1px solid black;
+	}
+	
+	
+	.hidden 
+	{
+	width : 80px;
+	height: 80px;
+	border : 1px solid black;
+	
+	}
+	
+.buttons1{
+  border: none;
+ 
+  background-color: grey;
+  height: 40px;
+  }
+  
+  .buttons2{
+  border: none;
+ 
+  background-color: grey;
+  height: 40px;
+  }
+  
+  .buttons3{
+  border: none;
+ 
+  background-color: grey;
+  height: 40px;
+  }
+  
