@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="utf-8">
+		<title> Suxpage</title>
+		<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	</head>
+<body> 
+
+<div class="traffic_lights">
+	<div id="red" class="hidden">
+	</div>
+	<div id="yellow" class="hidden">
+	</div>
+	<div id="green" class="hidden">
+	</div>
+</div>
+
+<button type="button" class="buttons1">
+red
+</button>
+
+<button type="button" class="buttons2">
+yellow
+</button>
+
+<button type="button" class="buttons3">
+green
+</button>
+
+	
+	<script>
+	
+	let elred = document.querySelector('#red');
+	let elyellow = document.querySelector('#yellow');
+	let elgreen = document.querySelector('#green');
+	
+	let elbuttons1 = document.querySelector('.buttons1');
+	let elbuttons2 = document.querySelector('.buttons2');
+	let elbuttons3 = document.querySelector('.buttons3');
+	
+	elbuttons1.addEventListener('click', () => {elred.classList.add("red");
+	elyellow.classList.remove("yellow"); elgreen.classList.remove("green");
+	});
+	
+	elbuttons2.addEventListener('click', () => {elyellow.classList.add("yellow");
+	elred.classList.remove("red"); elgreen.classList.remove("green");
+	});
+	
+	elbuttons3.addEventListener('click', () => {elgreen.classList.add("green");
+	elred.classList.remove("red"); elyellow.classList.remove("yellow");
+	});
+	
+	
+	
+	
+	
+
+</script>
+
+</body>
+
+
+</html>
